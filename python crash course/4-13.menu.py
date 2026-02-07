@@ -1,3 +1,5 @@
+foods = (Pizza, Burgers, Noodles, Lasagna, Pancakes);
+
 foods = (Pizza, Burgers, Noodles, Lasagna, Pancakes)
 print("Starter foods:")
 for food in foods:

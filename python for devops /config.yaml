@@ -1,0 +1,9 @@
+app_name: myapp
+port: 8080
+database:
+  host: localhost
+  port: 5432
+  username: app_user
+  max_connections: 100
+environment: production
+log_level: INFO

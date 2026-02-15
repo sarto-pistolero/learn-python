@@ -1,0 +1,34 @@
+2024-02-12 10:15:23 INFO Starting application server
+2024-02-12 10:15:24 INFO Loading configuration from /etc/app/config.yaml
+2024-02-12 10:15:25 DEBUG Database connection pool initialized with 10 connections
+2024-02-12 10:15:26 INFO Application listening on port 8080
+2024-02-12 10:16:01 WARNING High memory usage detected: 85%
+2024-02-12 10:16:15 INFO Request received: GET /api/users
+2024-02-12 10:16:16 ERROR Database connection timeout after 5000ms
+2024-02-12 10:16:16 ERROR Failed to fetch user data: Connection timeout
+2024-02-12 10:16:20 INFO Retrying database connection
+2024-02-12 10:16:21 INFO Database connection restored
+2024-02-12 10:17:45 WARNING API rate limit exceeded for client 192.168.1.100
+2024-02-12 10:18:12 INFO Request received: POST /api/orders
+2024-02-12 10:18:13 DEBUG Validating order payload
+2024-02-12 10:18:14 INFO Order created successfully: order_id=12345
+2024-02-12 10:19:33 ERROR Failed to send email notification: SMTP server unreachable
+2024-02-12 10:19:45 WARNING Disk usage at 90% on /var partition
+2024-02-12 10:20:01 INFO Starting scheduled backup job
+2024-02-12 10:20:02 DEBUG Connecting to backup server backup.example.com
+2024-02-12 10:20:15 INFO Backup completed: 2.3GB transferred
+2024-02-12 10:21:08 CRITICAL Security alert: Multiple failed login attempts from 203.0.113.42
+2024-02-12 10:21:09 WARNING IP 203.0.113.42 has been temporarily blocked
+2024-02-12 10:22:30 INFO Request received: GET /health
+2024-02-12 10:22:31 INFO Health check passed
+2024-02-12 10:23:45 ERROR Failed to connect to Redis cache: Connection refused
+2024-02-12 10:23:46 WARNING Falling back to in-memory cache
+2024-02-12 10:24:12 INFO Cache warmed up with 1500 entries
+2024-02-12 10:25:00 DEBUG Garbage collection completed in 45ms
+2024-02-12 10:26:18 INFO Request received: DELETE /api/sessions/abc123
+2024-02-12 10:26:19 INFO Session terminated successfully
+2024-02-12 10:27:33 ERROR Kubernetes pod readiness probe failed
+2024-02-12 10:27:45 WARNING Container restart count: 3
+2024-02-12 10:28:01 INFO Application shutting down gracefully
+2024-02-12 10:28:02 INFO All connections closed
+2024-02-12 10:28:03 INFO Application stopped
